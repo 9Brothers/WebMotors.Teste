@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\WebMotors.Teste.Application\WebMotors.Teste.Application.csproj" />
+    <ProjectReference Include="..\..\Domain\WebMotors.Teste.Domain\WebMotors.Teste.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastracture\WebMotors.Teste.Infrastracture.SqlServer\WebMotors.Teste.Infrastracture.SqlServer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+</Project>
